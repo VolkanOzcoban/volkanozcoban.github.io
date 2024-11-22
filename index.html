@@ -48,6 +48,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+			text-align: center; /* Ensures text is aligned */
         	}
 
 			#footer .inner {
@@ -66,7 +67,9 @@
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/headshot.jpeg" alt="" /></a>
+					<a href="#" class="image avatar">
+						<img src="images/headshot.jpeg" alt="" style="width: 100px; height: 100px;"/>
+					</a>
 					<h2> 
 						<strong> Volkan Ozcoban </strong>
 					</h2>
@@ -81,8 +84,9 @@
 				        <!-- Clickable Buttons -->
 						<div class="button-list-container">
 							<div class="button-list-item"><a href="#" class="load-content-button" data-link="about.html" style="border-bottom: none;">About Me</a></div>
-							<div class="button-list-item"><a href="#" class="load-content-button" data-link="cv.html" style="border-bottom: none;">CV/Resume</a></div>
+							<div class="button-list-item"><a href="pdfs/CV/20241121_CV.pdf" target="_blank" style="border-bottom: none;">Curriculum Vitae</a></div>
 							<div class="button-list-item"><a href="#" class="load-content-button" data-link="publications.html" style="border-bottom: none;">Publications</a></div>
+							<div class="button-list-item"><a href="#" class="load-content-button" data-link="other_docs.html" style="border-bottom: none;">Conferences, Posters, and Theses</a></div>
 							<!-- Add more buttons with the same class and different data-link attributes for each button -->
 						</div>
 				</div>
